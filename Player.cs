@@ -73,6 +73,7 @@ public class Player : MonoBehaviour
             comboTime = .3f;
         }
 
+
         anim.SetBool("isAttacking", isAttacking);
         anim.SetInteger("comboCounter", comboCounter);
     }
